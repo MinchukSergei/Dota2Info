@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ligth_fon">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textViewHeroName"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/dark_color"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageViewHeroImage"
+            android:background="@drawable/alchemist_full"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"/>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewOne"
+            android:textColor="@color/dark_color"/>
+
+        <TextView
+            android:id="@id/android:empty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading"
+            android:focusable="false"
+            android:clickable="true"
+            android:background="@android:color/white"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

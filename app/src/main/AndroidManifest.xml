@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="by.famcs.minchuk.dota2info" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:icon="@mipmap/ic_launcher_dota"
+
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ActivityHeroList">
+        </activity>
+        <activity android:name=".ActivityHeroInfo" android:theme="@style/NoActionBarTheme">
+        </activity>
+
+        <activity android:name=".ActivityItemList">
+        </activity>
+
+        <activity android:name=".ActivityItemInfo">
+        </activity>
+
+
+
+    </application>
+
+</manifest>

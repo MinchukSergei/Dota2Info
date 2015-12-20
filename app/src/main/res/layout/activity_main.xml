@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/header"
+        android:contentDescription="@string/heroes"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/heroes"
+        android:id="@+id/buttonHeroes"
+        android:background="@drawable/button_main"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/buttonItems"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/button_text_color"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/items"
+        android:id="@+id/buttonItems"
+        android:background="@drawable/button_main"
+        android:layout_below="@+id/buttonHeroes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/button_text_color"
+        />
+
+
+</RelativeLayout>

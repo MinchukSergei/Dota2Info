@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemCarry"
+        android:title="Carry"/>
+    <item
+        android:id="@+id/itemDisabler"
+        android:title="Disabler" />
+
+    <item
+        android:id="@+id/itemInitiator"
+        android:title="Initiator" />
+
+    <item
+        android:id="@+id/itemJungler"
+        android:title="Jungler" />
+
+    <item
+        android:id="@+id/itemSupport"
+        android:title="Support" />
+
+    <item
+        android:id="@+id/itemDurable"
+        android:title="Durable" />
+
+    <item
+        android:id="@+id/itemPusher"
+        android:title="Pusher" />
+
+    <item
+        android:id="@+id/itemNuker"
+        android:title="Nuker" />
+
+    <item
+        android:id="@+id/itemEscape"
+        android:title="Escape" />
+
+    <item
+        android:id="@+id/itemAll"
+        android:title="All" />
+
+</menu>

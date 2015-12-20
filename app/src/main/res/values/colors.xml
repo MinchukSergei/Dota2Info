@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="primary">#b1201b</color>
+    <color name="dark_primary">#630700</color>
+    <color name="button_text_color">#f5b214</color>
+    <color name="dark_color">#202020</color>
+    <color name="ligth_fon">#EEEEEE</color>
+    <color name="primary_color_text">#F6F6F6</color>
+    <color name="tab_selecter">#02611F</color>
+    <color name="white">#FFFFFF</color>
+</resources>

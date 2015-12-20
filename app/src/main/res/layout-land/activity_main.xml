@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:background="@drawable/header"
+        android:contentDescription="@string/heroes"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/buttonHeroes" />
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/heroes"
+        android:id="@+id/buttonHeroes"
+        android:background="@drawable/button_main"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/button_text_color"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:text="@string/items"
+        android:id="@+id/buttonItems"
+        android:background="@drawable/button_main"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/imageView"
+        android:textColor="@color/button_text_color"/>
+
+
+
+</RelativeLayout>
